@@ -181,6 +181,15 @@ export default function Home() {
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-yellow-400">
             Ready to rally around sharper bets?
           </h2>
+          <a 
+                href="https://calendly.com/varun-rajan/product-culture-consult" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="mt-8 bg-yellow-400 text-black px-8 py-4 rounded-lg font-semibold text-lg hover:bg-yellow-300 transition-colors inline-flex items-center gap-2 group"
+              >
+                Book a Conviction Call
+                <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" strokeWidth={2.5} />
+              </a>
         </div>
       </footer>
     </main>

@@ -5,12 +5,12 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-black text-white">
       {/* Hero Image Section */}
-      <section className="relative w-full h-[60vh] md:h-[70vh] lg:h-[80vh] overflow-hidden">
+      <section className="relative w-full h-[25vh] md:h-[30vh] overflow-hidden">
         <Image
           src="/images/hero.jpg"
           alt="Hero"
           fill
-          className="object-cover"
+          className="object-cover object-bottom"
           priority
         />
         {/* Gradient overlay that transitions to black */}
@@ -18,7 +18,7 @@ export default function Home() {
       </section>
 
       {/* Header Section */}
-      <section className="relative px-6 py-16 md:px-12 md:py-24 lg:px-24 -mt-32 md:-mt-40 lg:-mt-48 z-10">
+      <section className="relative px-6 py-16 md:px-12 md:py-24 lg:px-24 -mt-16 md:-mt-20 z-10">
         <div className="relative z-10 max-w-7xl mx-auto">
           <div className="grid md:grid-cols-2 gap-8 items-center">
             {/* Left Column - Text Content */}
@@ -29,10 +29,15 @@ export default function Home() {
               <p className="text-lg md:text-xl text-gray-300 leading-relaxed">
                 In 30-60 days, I'll help your Product team move from order-takers to confident, strategic partners in the business.
               </p>
-              <button className="bg-yellow-400 text-black px-8 py-4 rounded-lg font-semibold text-lg hover:bg-yellow-300 transition-colors flex items-center gap-2 group">
+              <a 
+                href="https://calendly.com/varun-rajan/30min" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="bg-yellow-400 text-black px-8 py-4 rounded-lg font-semibold text-lg hover:bg-yellow-300 transition-colors inline-flex items-center gap-2 group"
+              >
                 Book a Conviction Call
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" strokeWidth={2.5} />
-              </button>
+              </a>
             </div>
             
             {/* Right Column - Portrait Image */}

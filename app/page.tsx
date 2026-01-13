@@ -30,7 +30,7 @@ export default function Home() {
                 In 30-60 days, I'll help your Product team move from order-takers to confident, strategic partners in the business.
               </p>
               <a 
-                href="https://calendly.com/varun-rajan/30min" 
+                href="https://calendly.com/varun-rajan/product-culture-consult" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="bg-yellow-400 text-black px-8 py-4 rounded-lg font-semibold text-lg hover:bg-yellow-300 transition-colors inline-flex items-center gap-2 group"

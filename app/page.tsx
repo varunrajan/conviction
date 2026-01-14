@@ -1,4 +1,4 @@
-import { Check, ArrowRight } from "lucide-react";
+import { Check, ArrowRight, X } from "lucide-react";
 import Image from "next/image";
 
 export default function Home() {
@@ -158,15 +158,15 @@ export default function Home() {
               <h3 className="text-2xl font-bold mb-6">Not a fit if:</h3>
               <ul className="space-y-4">
                 <li className="flex items-start gap-3">
-                  <Check className="w-6 h-6 text-yellow-400 flex-shrink-0 mt-0.5" />
+                  <X className="w-6 h-6 text-gray-500 flex-shrink-0 mt-0.5" />
                   <span className="text-gray-300">You want "just execution"</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <Check className="w-6 h-6 text-yellow-400 flex-shrink-0 mt-0.5" />
+                  <X className="w-6 h-6 text-gray-500 flex-shrink-0 mt-0.5" />
                   <span className="text-gray-300">You're avoiding hard decisions</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <Check className="w-6 h-6 text-yellow-400 flex-shrink-0 mt-0.5" />
+                  <X className="w-6 h-6 text-gray-500 flex-shrink-0 mt-0.5" />
                   <span className="text-gray-300">You're not ready for change</span>
                 </li>
               </ul>

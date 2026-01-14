@@ -41,8 +41,8 @@ export default function Home() {
             </div>
             
             {/* Right Column - Portrait Image */}
-            <div className="relative">
-              <div className="relative w-full aspect-square max-w-md mx-auto">
+            <div className="relative space-y-4">
+              <div className="relative w-full aspect-square max-w-xs mx-auto">
                 <div className="absolute inset-0 bg-yellow-400 rounded-2xl -z-10"></div>
                 <div className="relative w-full h-full rounded-2xl overflow-hidden">
                   <Image
@@ -52,6 +52,15 @@ export default function Home() {
                     className="object-cover rounded-2xl"
                     priority
                   />
+                </div>
+              </div>
+              <div className="text-center space-y-2">
+                <h2 className="text-2xl md:text-3xl font-bold">Varun Rajan</h2>
+                <p className="text-gray-300">Product & Culture Consultant</p>
+                <div className="flex items-center justify-center gap-2 text-gray-400">
+                  <a href="https://www.linkedin.com/in/varun-rajan-15526845/" className="hover:text-yellow-400 transition-colors">LinkedIn</a>
+                  <span>·</span>
+                  <a href="https://www.pushpullpodcast.com/" className="hover:text-yellow-400 transition-colors">Podcast</a>
                 </div>
               </div>
             </div>
@@ -175,8 +184,8 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Footer Section */}
-      <footer className="px-6 py-16 md:px-12 md:py-24 lg:px-24 bg-black">
+      {/* CTA Section */}
+      <section className="px-6 py-16 md:px-12 md:py-24 lg:px-24 bg-black">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-yellow-400">
             Ready to rally around sharper bets?
@@ -190,6 +199,23 @@ export default function Home() {
                 Book a Conviction Call
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" strokeWidth={2.5} />
               </a>
+        </div>
+      </section>
+
+      {/* Footer Section */}
+      <footer className="px-6 py-12 md:px-12 md:py-16 lg:px-24 bg-black border-t border-gray-800">
+        <div className="max-w-7xl mx-auto text-center space-y-2">
+          <p className="text-xl font-semibold">Varun Rajan</p>
+          <p className="text-gray-300">Product & Culture Consultant</p>
+          <div className="flex items-center justify-center gap-2 text-gray-400">
+            <a href="https://www.linkedin.com/in/varun-rajan-15526845/" className="hover:text-yellow-400 transition-colors">LinkedIn</a>
+            <span>·</span>
+            <a href="https://www.pushpullpodcast.com/" className="hover:text-yellow-400 transition-colors">Podcast</a>
+            <span>·</span>
+            <a href="mailto:varun@varunrajan.com" className="hover:text-yellow-400 transition-colors">Email</a>
+            <span>·</span>
+            <a href="https://resume.varunrajan.com/" className="hover:text-yellow-400 transition-colors">Resume</a>
+          </div>
         </div>
       </footer>
     </main>

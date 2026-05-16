@@ -56,8 +56,12 @@ export default function Home() {
               </div>
               <div className="text-center space-y-2">
                 <h2 className="text-2xl md:text-3xl font-bold">Varun Rajan</h2>
-                <p className="text-gray-300">Product & Culture Consultant</p>
+                <p className="text-gray-300">Product, Operations & Culture Consultant</p>
                 <div className="flex items-center justify-center gap-2 text-gray-400">
+                  <a href="https://varunrajan.com/" className="hover:text-yellow-400 transition-colors">Portfolio</a>
+                  <span>·</span>
+                  <a href="https://varunrajan.com/ai-work" className="hover:text-yellow-400 transition-colors">AI Work</a>
+                  <span>·</span>
                   <a href="https://www.linkedin.com/in/varun-rajan-15526845/" className="hover:text-yellow-400 transition-colors">LinkedIn</a>
                   <span>·</span>
                   <a href="https://www.pushpullpodcast.com/" className="hover:text-yellow-400 transition-colors">Podcast</a>
@@ -159,6 +163,10 @@ export default function Home() {
                   <Check className="w-6 h-6 text-yellow-400 flex-shrink-0 mt-0.5" />
                   <span className="text-gray-300">You care about morale and performance</span>
                 </li>
+                <li className="flex items-start gap-3">
+                  <Check className="w-6 h-6 text-yellow-400 flex-shrink-0 mt-0.5" />
+                  <span className="text-gray-300">You're being asked to lead an AI transformation and want someone who'll be honest about where the real work is.</span>
+                </li>
               </ul>
             </div>
 
@@ -184,6 +192,21 @@ export default function Home() {
         </div>
       </section>
 
+      {/* AI Transformation Section */}
+      <section className="px-6 py-16 md:px-12 md:py-24 lg:px-24 bg-black">
+        <div className="max-w-7xl mx-auto">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6">
+            AI transformation is a culture problem before it's a tools problem.
+          </h2>
+          <p className="text-gray-300 max-w-3xl mb-6">
+            Most rollouts fail the same way most change programs fail: the tools arrive before the trust does. I help product leaders close the gap between what an AI workflow can do and what a team will actually use — diagnosing resistance, designing for friction reduction, and earning adoption through early wins rather than mandates.
+          </p>
+          <p className="text-gray-300 max-w-3xl">
+            I've built and operationalized AI at the workflow level — my own pipelines, client deliverables, handoffs to ops teams. The frontier I haven't crossed is embedding AI into the operating rhythm of a larger R&D org. That's not a disclaimer; it's why this kind of engagement is interesting to me right now, and why I think the judgment about what makes change stick matters more than a checklist of tools administered from the outside.
+          </p>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="px-6 py-16 md:px-12 md:py-24 lg:px-24 bg-black">
         <div className="max-w-7xl mx-auto text-center">
@@ -206,8 +229,12 @@ export default function Home() {
       <footer className="px-6 py-12 md:px-12 md:py-16 lg:px-24 bg-black border-t border-gray-800">
         <div className="max-w-7xl mx-auto text-center space-y-2">
           <p className="text-xl font-semibold">Varun Rajan</p>
-          <p className="text-gray-300">Product & Culture Consultant</p>
+          <p className="text-gray-300">Product, Operations & Culture Consultant</p>
           <div className="flex items-center justify-center gap-2 text-gray-400">
+            <a href="https://varunrajan.com/" className="hover:text-yellow-400 transition-colors">Portfolio</a>
+            <span>·</span>
+            <a href="https://varunrajan.com/ai-work" className="hover:text-yellow-400 transition-colors">AI Work</a>
+            <span>·</span>
             <a href="https://www.linkedin.com/in/varun-rajan-15526845/" className="hover:text-yellow-400 transition-colors">LinkedIn</a>
             <span>·</span>
             <a href="https://www.pushpullpodcast.com/" className="hover:text-yellow-400 transition-colors">Podcast</a>
